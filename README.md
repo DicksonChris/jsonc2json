@@ -38,6 +38,11 @@ cp package.json package.jsonc
 
 Now whenever you want to edit your projects `package.json` file, instead you can edit the `package.jsonb` file and comment it to your hearts content.
 
+When you're ready to compile it simply run:
+```shell
+npm run build:json
+```
+
 ### 5. Issues
 
 Oh boy... probably don't use this. 
