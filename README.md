@@ -11,8 +11,6 @@ Creates a `package.jsonb` file that you can actually comment. Then it can be com
 
 ### 1. Install the tool
 
-git 
-
 From the project root run:
 
 ```shell
