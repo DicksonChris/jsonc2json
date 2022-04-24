@@ -1,0 +1,24 @@
+{
+  "name": "jsonc-cli",
+  "version": "1.0.0",
+  "description": "cli wrapper for node-jsonc-parser",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "jsonc",
+    "cli",
+    "node-jsonc-parser"
+  ],
+  "bin": {
+    "jsonc2json": "./bin/index.js"
+  },
+  "author": "Christopher Dickson",
+  "license": "MIT",
+  "dependencies": {
+    "jsonc-parser": "^3.0.0",
+    "yargs": "^17.4.1"
+  }
+}
