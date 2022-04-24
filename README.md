@@ -4,7 +4,7 @@ Made to create a commented version of `package.json`
 
 ## Purpose
 
-Creates a `package.jsonb` file that you can actually comment. Then it can be compiled into the actual `package.json` which node recognizes.
+Creates a `package.jsonc` file that you can actually comment. Then it can be compiled into the actual `package.json` which node recognizes.
 
 
 ## Quick Setup
@@ -36,7 +36,7 @@ cp package.json package.jsonc
 
 ### 4. Use it. 
 
-Now whenever you want to edit your projects `package.json` file, instead you can edit the `package.jsonb` file and comment it to your hearts content.
+Now whenever you want to edit your projects `package.json` file, instead you can edit the `package.jsonc` file and comment it to your hearts content.
 
 When you're ready to compile it simply run:
 ```shell
@@ -47,7 +47,7 @@ npm run build:json
 
 Oh boy... probably don't use this. 
 
-One issue I can think of is if you `npm i <some-package>` the `.json` file will have new lines which the `.jsonb` file doesn't. This seems solvable by checking the automatically differences before compiling but we'll see.
+One issue I can think of is if you `npm i <some-package>` the `.json` file will have new lines which the `.jsonc` file doesn't. This seems solvable by checking the automatically differences before compiling but we'll see.
 
 
 ## Documentation
